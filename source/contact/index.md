@@ -1,37 +1,19 @@
 ---
 title: contact
-date: 2022-06-23 16:17:02
+date: 2026-03-30 21:13:37
 type: "contact"
 layout: "contact"
 ---
 
-![Take it now!](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fceb10357-0200-488e-8140-6eff0030736c%2FUntitled.png?table=block&id=8003c93c-ba9d-45c5-b5bc-87209968a6d0&cache=v2)
+![Take it now!](https://haowallpaper.com/link/common/file/previewFileImg/18018760246676864)
 
-# 关于本站-自语
+# 说点什么
 
-- 内容纯自我记录，不专注于博客发展
-
-- 因为想记录自己的学习过程，便建立本站。
-
-- 因为常常不能搜到理想中的答案，便以自己的方式记录答案。
-
-- 文章内容可能较少，是因才有记录想法，之后学习时便会慢慢补充。
-
-# 相关链接
-
-:bread: Academic Page：https://profile.wyqz.top
-
-☀️ CSDN： https://blog.csdn.net/qq_50285142
-
-⚡ 个人博客：https://wyqz.top
-
-⭐ Github：https://github.com/anda522 
+- 这里是风行者的个人博客，记录生活和学习
+- 本人非技术党，且十分懒散，很高兴你看到这里，祝你天天开心
 
 # 联系方式
 
-🔥 邮箱：wyq522208@qq.com
+🔥 邮箱：2816608286@qq.com
 
-👏 微信公众号：行码棋
-
-❤️ QQ：2579272746
-
+❤️ QQ：2816608286

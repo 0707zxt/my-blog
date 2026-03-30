@@ -1,27 +1,19 @@
 ---
 title: about
-date: 2022-06-19 16:41:10
+date: 2026-03-30 21:13:37
 type: "about"
 layout: "about"
 mathjax: true
 ---
 
-More Info：https://profile.wyqz.top
-
 ## Background
 
-* 2020.09 - 2024.06 本科 | 郑州大学 | 物联网工程
-
-* 2024.09 - 2027.06 硕士 | 中国科学技术大学 | 网络空间安全
+- 2023.09 - 本科 | 郑州大学 | 人工智能
 
 ## Contact
 
-- **邮箱** ：wyq522208@qq.com
+- **邮箱** ：2816608286@qq.com
 
-- **QQ** ：2579272746
+- **QQ** ：2816608286
 
-- **公众号** ：行码棋
-
-Update: 2024-10-17
-
-![](/medias/gzh.jpg)
+Update: 2026-3-30
