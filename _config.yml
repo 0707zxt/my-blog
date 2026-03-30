@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 行码棋
-subtitle: 行稳致远
-description: 金牌选手不会从天而降，你必须用热爱、刻苦和投入来浇灌他们。
-keywords: "行码棋"
-author: 行码棋
+title: 风行者
+subtitle: 实事求是
+description: 做自己的光
+keywords: "Hexo, 博客, 技术, 生活"
+author: 风行者
 language: zh-CN
 timezone:
 
@@ -37,7 +37,6 @@ post_asset_folder: true
 relative_link: false
 future: true
 
-
 # _config.yml 代码高亮 https://hexo.io/zh-cn/docs/syntax-highlight#preprocess
 syntax_highlighter: prismjs
 # highlight:
@@ -53,11 +52,11 @@ prismjs:
   preprocess: true
   line_number: true
   line_threshold: 0
-  tab_replace: ''
+  tab_replace: ""
 
 lazyload:
-  enable: false  # 是否开启图片懒加载
-  onlypost: true  # 是否只对文章的图片做懒加载
+  enable: false # 是否开启图片懒加载
+  onlypost: true # 是否只对文章的图片做懒加载
   loadingImg: # eg ./images/loading.gif
   isSPA: false # optional. For performance considering, isSPA is added. If your theme is a SPA page, please set it as true
   preloadRatio: 3 # optional, default is 1
@@ -71,16 +70,15 @@ markdown_it_plus:
   #       name: markdown-it-katex
   #       enable: false
 
-
 search:
   path: search.xml
   field: post
 
 # permalink: :year/:month/:day/:title/
-permalink: p/:abbrlink.html  # p 是自定义的前缀
+permalink: p/:abbrlink.html # p 是自定义的前缀
 abbrlink:
-    alg: crc32   #算法： crc16(default) and crc32
-    rep: dec     #进制： dec(default) and hex
+  alg: crc32 #算法： crc16(default) and crc32
+  rep: dec #进制： dec(default) and hex
 
 feed:
   type: atom
@@ -89,24 +87,24 @@ feed:
   hub:
   content:
   content_limit: 140
-  content_limit_delim: ' '
+  content_limit_delim: " "
   order_by: -date
 
 Plugins:
-- hexo-generator-sitemap
+  - hexo-generator-sitemap
 
 sitemap:
-    path: sitemap.xml
-  
+  path: sitemap.xml
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 12
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -132,11 +130,10 @@ theme: matery
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
-  repository:
-    github: git@github.com:anda522/anda522.github.io.git
-    gitee: git@gitee.com:wyqz/wyqz.git
-  branch: master
+  type: git
+  repository: https://github.com/0707zxt/my-blog.git
+  branch: gh-pages
+  message: 博客更新部署
 # 个人服务器私有Git
 # - type: git
 #   repository: git@101.35.203.216:/home/git/blog.git
@@ -151,7 +148,7 @@ deploy:
 #   token: 48Vq3c6WJnufaIkT
 #   path: baidu_urls.txt
 
-# 嵌入式表情支持 如 :star: 
+# 嵌入式表情支持 如 :star:
 githubEmojis:
   enable: true
   className: github-emoji
