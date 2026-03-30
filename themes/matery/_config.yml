@@ -22,8 +22,6 @@ menu:
     url: /contact
     icon: fa-comments
 
-
-
 # 首页封面轮播图的相关配置.
 cover:
   showPrevNext: true # 是否显示左右切换按钮. Whether to display the left and right toggle buttons.
@@ -32,16 +30,14 @@ cover:
   duration: 150 # 切换延迟时间. Switching delay time.
   intervalTime: 5000 # 自动切换下一张的间隔时间. Automatically switch the interval of the next one.
 
-
 # 配置首页显示"梦想"的语句.
 dream:
   enable: true
   showTitle: true
   showImg: true
-  title: Life & Dream
-  text: 自语遍布前进之途，不解漫灌想思之池。尽力完善和呈现，并期待与你相遇。
+  title: Nothing is impossible
+  text: 相信相信的力量
   img: /medias/img/front.jpg
-
 
 # 是否在首页显示音乐.
 music:
@@ -50,14 +46,13 @@ music:
   title: 听听音乐
   fixed: true # 开启吸底模式
   autoplay: false # 是否自动播放
-  theme: '#542674'
-  loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'list' # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'none' # 预加载，可选值: 'none', 'metadata', 'auto'
+  theme: "#542674"
+  loop: "all" # 音频循环播放, 可选值: 'all', 'one', 'none'
+  order: "list" # 音频循环顺序, 可选值: 'list', 'random'
+  preload: "none" # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: false # 列表默认折叠
   listMaxHeight: #列表最大高度
-
 
 # 是否在首页显示视频.
 video:
@@ -69,38 +64,34 @@ video:
   thumbnails:
   height: # 如：400
   autoplay: true # 是否自动播放
-  theme: '#42b983'
+  theme: "#42b983"
   loop: true # 是否循环播放
-  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+  preload: "auto" # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7
-
 
 # 是否显示推荐文章的标题
 recommend:
   showTitle: true
 
-
 # 配置网站favicon和网站LOGO
 favicon: /medias/logo.png
 logo: /medias/logo.png
-
 
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/anda522
-
+  url: https://github.com/0707zxt
 
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 2579272746
-  github: anda522
-  weibo: 
-  email: wyq522208@qq.com
-  zhihu: 
-  csdn: https://blog.csdn.net/qq_50285142
+  qq:
+  github:
+  weibo:
+  email:
+  zhihu:
+  csdn:
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -113,12 +104,11 @@ toc:
 
 inject:
   head:
-  # 自定义CSS
+    # 自定义CSS
     - <link rel="stylesheet" href="/css/my.css">
   bottom:
-  # 自定义JS
+    # 自定义JS
     - <script src="/js/my.js"></script>
-  
 
 # Whether the code is broken.
 # 代码是否折行
@@ -126,11 +116,11 @@ code:
   break: true
 
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
-reward:
-  enable: true
-  title: 写作不易，客官能否打赏一杯奶茶？
-  wechat: /medias/reward/wechat.png
-  alipay: /medias/reward/alipay.png
+# reward:
+#   enable: true
+#   title: 写作不易，客官能否打赏一杯奶茶？
+#   wechat: /medias/reward/wechat.png
+#   alipay: /medias/reward/alipay.png
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
 # minCharNumber: Approve copyright information by copying at least how many characters.
@@ -138,8 +128,7 @@ reward:
 copyright:
   enable: true
   minCharNumber: 120 # 至少复制多少个字符就追加版权信息.
-  description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
-
+  description: 本文章著作权归作者所有，任何形式的转载都请注明出处
 
 # 是否激活mathjax数学公式，这是全局配置，但文章仍然不会都开启mathjax渲染，
 # 考虑到mathjax加载比较耗时，你还需要在需要渲染的文章的Front-matter中再加上`mathjax: true`才行.
@@ -147,8 +136,6 @@ mathjax:
   enable: false
   # cdn: https://lib.baomitu.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
   cdn: https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  
-
 
 # 文章字数统计、阅读时长、总字数统计
 # 激活前请确认你已经安装了 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
@@ -171,64 +158,62 @@ text:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatars/me.png
-  career: 
-  introduction: 退役ACMer，曾落魄过，那么光亮在何时？
+  career:
+  introduction: 欢迎,朋友
 
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
-myProjects:
-  enable: true
-  data:
-    hexo-theme-matery:
-      icon: fa-github
-      iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-      url: https://github.com/anda522/hexo_blog
-      desc: 基于Matery的个性化博客主题
-    # CIFAR10:
-    #   icon: fa-meetup
-    #   iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-    #   url: https://github.com/anda522/CIFAR10
-    #   desc: Pytorch之CIFAR10图像分类
-    # calendar:
-    #   icon: fa-database
-    #   iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-    #   url: https://github.com/anda522/calendar
-    #   desc: 简单的日历备忘APP(Calendar Memo)
-    # QQ-Bot:
-    #   icon: fa-archive
-    #   iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-    #   url: https://github.com/anda522/bot
-    #   desc: 基于Nonebot2的QQ群聊机器人
+# myProjects:
+#   enable: true
+#   data:
+#     hexo-theme-matery:
+#       icon: fa-github
+#       iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+#       url: https://github.com/anda522/hexo_blog
+#       desc: 基于Matery的个性化博客主题
+# CIFAR10:
+#   icon: fa-meetup
+#   iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
+#   url: https://github.com/anda522/CIFAR10
+#   desc: Pytorch之CIFAR10图像分类
+# calendar:
+#   icon: fa-database
+#   iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+#   url: https://github.com/anda522/calendar
+#   desc: 简单的日历备忘APP(Calendar Memo)
+# QQ-Bot:
+#   icon: fa-archive
+#   iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+#   url: https://github.com/anda522/bot
+#   desc: 基于Nonebot2的QQ群聊机器人
 
-
-# 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
-mySkills:
-  enable: true
-  data:
-    Algorithm:
-      background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
-      percent: 50%
-    C++:
-      background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
-      percent: 60%
-    Python:
-      background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 60%
-    Markdown:
-      background: 'linear-gradient(to right, #951213 0%, #961117 100%)'
-      percent: 90%
-    JavaScript:
-      background: 'linear-gradient(to right, #F12F12 0%, #F6464F 100%)'
-      percent: 65%
-    MachineLearning:
-      background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 20%
-    SQL:
-      background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 10%
-    HTML:
-      background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
-      percent: 35%
-
+# # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
+# mySkills:
+#   enable: true
+#   data:
+#     Algorithm:
+#       background: "linear-gradient(to right, #FF0066 0%, #FF00CC 100%)"
+#       percent: 50%
+#     C++:
+#       background: "linear-gradient(to right, #9900FF 0%, #CC66FF 100%)"
+#       percent: 60%
+#     Python:
+#       background: "linear-gradient(to right, #2196F3 0%, #42A5F5 100%)"
+#       percent: 60%
+#     Markdown:
+#       background: "linear-gradient(to right, #951213 0%, #961117 100%)"
+#       percent: 90%
+#     JavaScript:
+#       background: "linear-gradient(to right, #F12F12 0%, #F6464F 100%)"
+#       percent: 65%
+#     MachineLearning:
+#       background: "linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)"
+#       percent: 20%
+#     SQL:
+#       background: "linear-gradient(to right, #4CAF50 0%, #81C784 100%)"
+#       percent: 10%
+#     HTML:
+#       background: "linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)"
+#       percent: 35%
 
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
@@ -238,14 +223,12 @@ myGallery:
     - /medias/featureimages/5.jpg
     - /medias/featureimages/6.jpg
 
-
 # 设置在归档页面中是否显示'文章日历'控件
 postCalendar: true
 
-
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
-  enable: true
+  enable: false
   owner: anda522
   repo: anda522.github.io
   oauth:
@@ -253,17 +236,20 @@ gitalk:
     clientSecret: 9026078c86f550ac2f804f817046f2f02aa1bf46
   admin: anda522
 
+# ==================== Giscus 评论系统 ====================
 giscus:
   enable: true
-  repo: anda522/anda522.github.io
-  repo_id: R_kgDOHipDvg
-  category: General
-  category_id: DIC_kwDOHipDvs4Cts1a
-  mapping: title
+  repo: 0707zxt/0707zxt.github.io
+  repo_id: R_kgDOR041ew
+  category: Announcements
+  category_id: DIC_kwDOR041e84C5oOw
+  mapping: pathname
+  strict: 0
   reactions_enabled: 1
-  theme: light
+  emit_metadata: 0
+  input_position: top
+  theme: preferred_color_scheme
   lang: zh-CN
-  admin: anda522
 
 # Gitment 评论模块的配置，默认为不激活
 gitment:
@@ -274,38 +260,33 @@ gitment:
     clientId:
     clientSecret:
 
-
 # Disqus评论模块的配置，默认为不激活
 disqus:
   enable: false
   shortname:
-
 
 # Livere 来必力评论模块的配置，默认为不激活
 livere:
   enable: false
   uid:
 
-
-# Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
-valine:
-  enable: true
-  appId: IxO06LubS0JP1nbtF4umMRp6-gzGzoHsz
-  appKey: OSn1n1ptwfxMcUAw2D0bbLXU
-  notify: false
-  verify: false
-  visitor: true
-  avatar: 'wavatar' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
-  pageSize: 10
-  placeholder: '欢迎提问与质疑，你可以在这里评论啦！' # Comment Box placeholder
-
+# # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
+# valine:
+#   enable: false
+#   appId: IxO06LubS0JP1nbtF4umMRp6-gzGzoHsz
+#   appKey: OSn1n1ptwfxMcUAw2D0bbLXU
+#   notify: false
+#   verify: false
+#   visitor: true
+#   avatar: "wavatar" # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+#   pageSize: 10
+#   placeholder: "欢迎提问与质疑，你可以在这里评论啦！" # Comment Box placeholder
 
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.(右上角)
 githubLink:
   enable: true
-  url: "https://github.com/anda522/anda522.github.io"
+  url: "https://github.com/0707zxt/0707zxt.github.io"
   title: Github Page
-
 
 # 阅读文章的密码验证功能，如要使用此功能请激活该配置项，并在对应文章的Front-matter中写上'password'的键和加密后的密文即可.
 # 请注意：为了保证密码原文不会被泄露到网页中，文章的密码必须是通过'SHA256'加密的，这样就不会被破解.
@@ -314,19 +295,16 @@ verifyPassword:
   promptMessage: 请输入访问本文章的密码
   errorMessage: 密码错误，将返回主页！
 
-
 # 不蒜子(http://busuanzi.ibruce.info/) 网站统计
-busuanziStatistics:
-  enable: true
-  totalTraffic: true # 总访问量
-  totalNumberOfvisitors: true # 总人次
-
+# busuanziStatistics:
+#   enable: true
+#   totalTraffic: true # 总访问量
+#   totalNumberOfvisitors: true # 总人次
 
 # 添加 Google Analytics 配置
 googleAnalytics:
   enable: true
-  id: G-JPXWHNDBQ5
-
+  id:
 
 # 使用到的前端库，可按需替换成对应的CDN地址，如果下面未指定具体的版本号，使用最新的版本即可.
 # 括号中是本地对应的版本
@@ -348,7 +326,7 @@ libs:
     gitalk: https://lib.baomitu.com/gitalk/latest/gitalk.css
     jqcloud: https://lib.baomitu.com/jqcloud/1.0.2/jqcloud.css
     tocbot: https://lib.baomitu.com/tocbot/latest/tocbot.css
-    prism:  /libs/prism/prism.css
+    prism: /libs/prism/prism.css
   js:
     jquery: https://lib.baomitu.com/jquery/2.2.0/jquery.min.js
     materialize: https://lib.baomitu.com/materialize/1.0.0/js/materialize.min.js
@@ -367,66 +345,61 @@ libs:
     tocbot: https://lib.baomitu.com/tocbot/latest/tocbot.min.js
     prism: /libs/prism/prism.js
 
-
 # 无文章特色图片时需要显示的文章特色图片,会在下列图片中自动切换,无需修改代码
-featureImages: 
-- /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
-- /medias/featureimages/2.jpg
-- /medias/featureimages/3.png
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
-- /medias/featureimages/9.png
-- /medias/featureimages/10.jpg
-- /medias/featureimages/11.jpg
-- /medias/featureimages/12.jpg
-- /medias/featureimages/13.jpg
-- /medias/featureimages/14.jpg
-- /medias/featureimages/15.jpg
-- /medias/featureimages/16.jpg
-- /medias/featureimages/17.jpg
-- /medias/featureimages/18.jpg
-- /medias/featureimages/19.jpg
-- /medias/featureimages/20.jpg
-- /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
-- /medias/featureimages/24.jpg
-- /medias/featureimages/25.png
-- /medias/featureimages/26.jpg
-- /medias/featureimages/27.jpg
+featureImages:
+  - /medias/featureimages/0.jpg
+  - /medias/featureimages/1.jpg
+  - /medias/featureimages/2.jpg
+  - /medias/featureimages/3.png
+  - /medias/featureimages/4.jpg
+  - /medias/featureimages/5.jpg
+  - /medias/featureimages/6.jpg
+  - /medias/featureimages/7.jpg
+  - /medias/featureimages/8.jpg
+  - /medias/featureimages/9.png
+  - /medias/featureimages/10.jpg
+  - /medias/featureimages/11.jpg
+  - /medias/featureimages/12.jpg
+  - /medias/featureimages/13.jpg
+  - /medias/featureimages/14.jpg
+  - /medias/featureimages/15.jpg
+  - /medias/featureimages/16.jpg
+  - /medias/featureimages/17.jpg
+  - /medias/featureimages/18.jpg
+  - /medias/featureimages/19.jpg
+  - /medias/featureimages/20.jpg
+  - /medias/featureimages/21.jpg
+  - /medias/featureimages/22.jpg
+  - /medias/featureimages/23.jpg
+  - /medias/featureimages/24.jpg
+  - /medias/featureimages/25.png
+  - /medias/featureimages/26.jpg
+  - /medias/featureimages/27.jpg
 
+    # default 配置文章的默认转载规则
 
+    # you can define reprint policy for a single article in the front-matter of the specific md file using this key: reprintPolicy
+    # 您可以使用在文章md文件的 front-matter 中指定 reprintPolicy 来给单个文章配置转载规则
 
-  # default 配置文章的默认转载规则
+    # 可用的转载规则有（available reprint policies are）：
+    # 这些转载规则的意义请参考(you can refer to this link FMI)：https://creativecommons.org/choose/?lang=zh
+    # cc_by（知识共享署名 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
+    # cc_by_nd（知识共享署名-禁止演绎 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
+    # cc_by_sa（知识共享署名-相同方式共享 4.0 国际许可协议 Creative Commons Attribution-ShareAlike 4.0 International License）
+    # cc_by_nc（知识共享署名-非商业性使用 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
+    # cc_by_nc_nd（知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License）
+    # cc_by_nc_sa（知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License）
 
-  # you can define reprint policy for a single article in the front-matter of the specific md file using this key: reprintPolicy
-  # 您可以使用在文章md文件的 front-matter 中指定 reprintPolicy 来给单个文章配置转载规则
+    # cc0（CC0 1.0 通用 (CC0 1.0) 公共领域贡献 CC0 1.0 Universal (CC0 1.0) Public Domain Dedication） https://creativecommons.org/publicdomain/zero/1.0/deed.zh
 
-  # 可用的转载规则有（available reprint policies are）：
-  # 这些转载规则的意义请参考(you can refer to this link FMI)：https://creativecommons.org/choose/?lang=zh
-  # cc_by（知识共享署名 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
-  # cc_by_nd（知识共享署名-禁止演绎 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
-  # cc_by_sa（知识共享署名-相同方式共享 4.0 国际许可协议 Creative Commons Attribution-ShareAlike 4.0 International License）
-  # cc_by_nc（知识共享署名-非商业性使用 4.0 国际许可协议 Creative Commons Attribution-NoDerivatives 4.0 International License）
-  # cc_by_nc_nd（知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License）
-  # cc_by_nc_sa（知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License）
-
-  # cc0（CC0 1.0 通用 (CC0 1.0) 公共领域贡献 CC0 1.0 Universal (CC0 1.0) Public Domain Dedication） https://creativecommons.org/publicdomain/zero/1.0/deed.zh
-
-  # noreprint（不允许转载 not allowed to reprint）
-  # pay（付费转载 pay for reprinting）
+    # noreprint（不允许转载 not allowed to reprint）
+    # pay（付费转载 pay for reprinting）
 reprint:
   enable: true # whether enable reprint section 是否启用“转载规则限定模块”
   default: cc_by
-
 
 # 雪花特效
 snow:
   enable: false
 
 baidu_push: false
-
