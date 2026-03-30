@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://0707zxt.github.io
-root: /
+url: https://0707zxt.github.io/my-blog
+root: /my-blog/
 
 # Directory
 source_dir: source
@@ -132,8 +132,8 @@ theme: matery
 deploy:
   - type: git
     repository:
-      github: git@github.com:0707zxt/0707zxt.github.io.git
-    branch: main
+      github: https://github.com/0707zxt/my-blog.git
+    branch: gh-pages
 
 # 嵌入式表情支持 如 :star:
 githubEmojis:
